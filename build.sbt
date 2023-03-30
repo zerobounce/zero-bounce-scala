@@ -8,3 +8,19 @@ lazy val root = (project in file("."))
     name := "zerobounce",
     idePackagePrefix := Some("com.zerobounce")
   )
+
+// equivalent to `artifactId`
+name := "zerobounce-sdk"
+
+// equivalent to `groupId`
+organization := "com.zerobounce.scala"
+
+licenses := Seq("MIT" -> url("https://raw.githubusercontent.com/zerobounce/zero-bounce-scala/main/LICENSE"))
+
+description := "The ZeroBounce SDK for Scala"
+
+import xerial.sbt.Sonatype.GitHubHosting
+sonatypeProjectHosting := Some(GitHubHosting("zerobounce", "zero-bounce-scala", "integrations@zerobounce.net"))
+
+// error occurring from the following line
+//publishTo := sonatypeProjectHosting.value
