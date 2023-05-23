@@ -1,8 +1,4 @@
-# ZeroBounce Scala API
-
-Esta es una API de ZeroBounce para Scala que proporciona acceso a varios endpoints de la API de ZeroBounce. A continuación se detallan los endpoints disponibles y los principios de implementación.
-
-## Endpoints
+#### Endpoints
 - [ ] credits
 - [ ] api usage
 - [ ] activity data
@@ -19,12 +15,12 @@ Esta es una API de ZeroBounce para Scala que proporciona acceso a varios endpoin
   - [ ] file result
   - [ ] file result
 
-## Principios
+#### Principios
 - Requerimientos HTTP: [sttp](https://sttp.softwaremill.com/en/stable/)
 - Análisis JSON: [json parsing library]
 - Pruebas unitarias
 
-## Publicación
+#### Publicación
 
 Para publicar la biblioteca en Maven Central, se requiere seguir una serie de pasos. Aquí hay una guía general:
 
